@@ -1,6 +1,7 @@
 
 import { useState, useEffect } from 'react'
-import { DragDropContext } from 'react-beautiful-dnd'
+import { DragDropContext } from "@hello-pangea/dnd";
+
 import TaskContext from './context/TaskContext'
 import ThemeContext from './context/ThemeContext'
 import Header from './components/Header'

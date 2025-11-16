@@ -1,6 +1,7 @@
 
 import { useContext } from 'react'
-import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd'
+import { DragDropContext, Droppable, Draggable } from "@hello-pangea/dnd";
+
 import TaskContext from '../context/TaskContext'
 import TaskColumn from './TaskColumn'
 
